@@ -2,7 +2,7 @@ import random
 TARGET_LENGTH = 20  # 문제 파라미터
 
 
-# 개체 선택: 룰렛 휠 선택 , //토너먼트가 보통 많이 쓰이니 다음부턴 토너먼트 ㄱㄱ
+# 개체 선택: 룰렛 휠 선택 , //토너먼트가 보통 많이 쓰이니 다음부턴 토너먼트 사용할 것.
 def select_population(population, fitness, num_parents):
     selected_parents = []
     total_fitness = sum(fitness)
